@@ -8,3 +8,4 @@ curl http://0.0.0.0:5432/test \
 --write-out "" --silent --output null
 ```
 
+Now with regex to eliminate newline spam
