@@ -7,5 +7,5 @@ time yes -- '-f' | head -20 | xargs -n 1 -P 20 \
 curl http://0.0.0.0:5432/test \
 --write-out "" --silent --output null
 ```
-
-Now with regex to eliminate newline spam
+Uses .replace to eliminate newline spam
+Changes the recordfactory to add uuid
