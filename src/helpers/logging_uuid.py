@@ -1,6 +1,5 @@
 import contextvars
 import logging
-import re
 
 logging_uuid = contextvars.ContextVar("uuid")
 
